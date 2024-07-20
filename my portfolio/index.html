@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fa438bb843.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div id="header">
+
+<div class="container">
+    <nav>
+    <img src="myname.png" width="140px">
+    <ul id="sidemenu">
+    <li><a href="#header">HOME</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#services">SERVICES</a></li>
+    <li><a href="#portfolio">PORTFOLIO</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+    <div class="header-text">
+    <p>UI/UX Designer</p>
+    <h1>Hi I'm <span> Abdifatah </span><br> Hussein From Kenya</h1>
+    </div>
+</div>
+
+</div>
+<!-- ======About=========== -->
+
+<div id="about">
+<div class="container">
+<div class="row">
+ <div class="about-col-1">
+<img src="portfolio bb2.jpg" width="100%">
+  </div>
+<div class="about-col-2">
+ <h1 class="sub-title">About Me</h1>
+ <p>Hi, I'm Abdifatah Hussein, a passionate Front-End Developer with a knack for creating engaging user experiences. With a background in UI design and a love for coding, I bring ideas to life through beautiful and functional websites. 
+    Over the years, I've honed my skills in HTML, CSS, JavaScript, and various front-end frameworks. I thrive in collaborative environments and enjoy working on projects that challenge my creativity and problem-solving abilities.
+
+    When I'm not coding, you can find me exploring the latest design trends, contributing to open-source projects, or sharing my knowledge through tutorials and blog posts.</p>
+    <div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('Education')">Education</p>
+    </div>
+    <div class="tab-contents active-tab" id="Skills">
+    <ul>
+    <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+    <li><span>Web Development</span><br>Web App Development</li>
+    <li><span>App Development</span><br>Buliding Android/IOS apps</li>
+    </ul>
+    </div>
+    <div class="tab-contents" id="Experience">
+        <ul>
+        <li><span>2021-current</span><br>UI/UX Design Training at ET Institute</li>
+        <li><span>2019 - 2021</span><br>Team lead At StarApp LLC.</li>
+        <li><span>2017 -2019</span><br>UI/UX Design Executive At Coin Degital Ltd.</li>
+        <li><span>2016 -2017</span><br>Internship at ekart ecommerce.</li>
+        </ul>
+        </div>
+        <div class="tab-contents" id="Education">
+            <ul>
+            <li><span>2016</span><br>UI/UX Design Training at ET Insitute. </li>
+            <li><span>2016</span><br>MBA from MIIT Bagolore. </li>
+            <li><span>2014</span><br>BBA from ISM  Bangalore.</li>
+            </ul>
+            </div>
+ </div>
+</div>
+ </div>
+</div>
+
+<!-- =======Services=================== -->
+ <div id="services">
+    <div class="container">
+  <h1 class="sub-title">My Services</h1>
+  <div class="services-list">
+    <div>
+        <i class="fas fa-code"></i>
+   <h2>Web Design</h2>
+   <p>I specialize in designing visually appealing and user-friendly websites that not only look great but also provide a seamless experience 
+    across all devices. My approach to web design involves:
+</p>
+<a href="#">Learn More</a>
+    </div>
+    <div>
+        <i class="fas fa-crop-alt"></i>
+        <h2>UI/UX Design</h2>
+        <p> As a UI/UX Designer, my mission is to create intuitive and engaging user experiences that delight users and drive business success. With a keen eye for 
+                 detail and a deep understanding of user behavior, I design interfaces that are both aesthetically pleasing and highly functional.</p>
+        
+     <a href="#">Learn More</a>
+         </div>
+         <div>
+            <i class="fab fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>As an App Designer, I am dedicated to creating intuitive, engaging, and high-performing mobile applications that provide exceptional user experiences. 
+                My approach integrates creativity with analytical thinking 
+                to deliver designs that are both visually appealing and functional</p>
+         
+         <a href="#">Learn More</a>
+             </div>
+  </div>
+
+    </div>
+ </div>
+
+ <!-- =====Portfolio====== -->
+  <div id="portfolio">
+    <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+    <div class="work">
+    <img src="imgi1.jpg" alt="">
+    <div class="layer">
+    <h3>Social Media App</h3>
+    <p>This App Connected The Telenated people Around The World . Download it From Play Store.</p>
+    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+    </div>
+    </div>
+    <div class="work">
+    <img src="course 22.jpg" alt="">
+    <div class="layer">
+        <h3>Web Development</h3>
+        <p>web design, web content development, client-side/server-side scripting, and network security configuration.</p>
+        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+    </div>
+    <div class="work">
+    <img src="course44.webp" alt="">
+    <div class="layer">
+        <h3>Cyber security</h3>
+        <p>Cybersecurity measures encompass various aspects, such as network security, application security, information security.</p>
+        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+    </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+
+    </div>
+  </div>
+
+  <!-- =====Contact============ -->
+
+  <div id="contact">
+    <div class="container">
+    <div class="row">
+    <div class="contact-left">
+    <h1 class="sub-title">Contact Me</h1>
+    <p><i class="fas fa-paper-plane"></i>Contact@husseinabdifatah222@gmail.com</p>
+    <p><i class="fas fa-phone-square-alt"></i>0727489825</p>
+    <div class="social-icons">
+    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+    
+    </div>
+    <a href="Margaret-Wangari-Waithaka-CV.pdf" download  class="btn btn2">Download Cv</a>
+
+     </div>
+     <div class="contact-right">
+     <form name="submit-to-google-sheet">
+        <input type="text" name="Name"  placeholder="Your Name" required>
+        <input type="email" id="Email" name="email" placeholder="Your Email" required>
+        <textarea id="message" name="Message" rows="6" placeholder="Your Message" required></textarea>
+        
+        <button type="submit" class="btn btn2">Submit</button>
+      </form>
+      <span id="msg"></span>
+       </div>
+       </div>
+    </div>
+
+    <div class="copyright">
+    <p>copyright @Abdifatah hussein. <i class="fa-solid fa-heart"></i>Made By with Me</p>
+    </div>
+    </div>
+    
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById('sidemenu');
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+    
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyPcdR3Wl2Df0yZqaHjfoeLZsjBjS9gjHoOpPLy5XsyFtf2XEpQaD33X9UQCGK6otU/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById('msg')
+    
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+        msg.innerHTML = "Message sent succesfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+        })
+        .catch(error => {
+          console.error('Error!', error.message);
+          alert('There was an error submitting the form.');
+        });
+    });
+  </script>
+  
+
+</body>
+</html>
